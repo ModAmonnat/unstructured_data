@@ -1,3 +1,5 @@
+#The following script has been polished by Clude
+
 test_transactions = extract_transactions(sample_data, "Test")                                             
 test_df = pd.DataFrame(test_transactions)
 
