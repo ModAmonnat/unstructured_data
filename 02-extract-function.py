@@ -1,3 +1,5 @@
+#The following script has been polished by Clude
+
 def extract_transactions(data, source_file="File1"):
     transactions = []
     lines = data.strip().split('\n')
