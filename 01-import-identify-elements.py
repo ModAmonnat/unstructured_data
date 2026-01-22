@@ -2,6 +2,8 @@ import re
 import pandas as pd
 from pathlib import Path
 
+#The following script has been polished by Clude
+
 sample_data = """
 CENTRAL1 01/01/15  AIBC 080911101                                               PAGE       1
 RUN TIME 04:27              CENTRAL1 ACTIVITY AND BALANCES
