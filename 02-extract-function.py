@@ -31,7 +31,7 @@ def extract_transactions(data, source_file="File1"):
             continue
         
         # Find all amount+code pairs
-        for match in re.finditer(r'(\d{1,3}(?:,\d{3})*\.\d{2})\s*([A-Z]{2,3})', line):
+        for match in re.finditer(r'(-?\d{1,3}(?:,\d{3})*\.\d{2})\s*([A-Z]{2,3})', line):
             amount = float(match.group(1).replace(',', ''))
             code = match.group(2)
             
